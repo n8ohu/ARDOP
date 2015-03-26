@@ -2,7 +2,7 @@
 using System;
 
 
-namespace HamModem
+namespace ARDOP
 {
 	public class BusyDetector
 	{

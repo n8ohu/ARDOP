@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ARDOP
 {
-    public class INIFile
+    public class FFT
     {
     }
 }

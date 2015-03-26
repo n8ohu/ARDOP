@@ -37,6 +37,12 @@
       <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC\Microsoft.DirectX.DirectSound\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.DirectSound.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="nsoftware.IPWorks">
+      <HintPath>..\..\..\..\..\..\..\Program Files\nsoftware\IPWorks V9 .NET Edition\lib\nsoftware.IPWorks.dll</HintPath>
+    </Reference>
+    <Reference Include="nsoftware.IPWorks.System">
+      <HintPath>..\..\..\..\..\..\..\Program Files\nsoftware\IPWorks V9 .NET Edition\lib\nsoftware.IPWorks.System.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,8 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ARDOPprotocol.cs" />
     <Compile Include="BusyDetector.cs" />
+    <Compile Include="DemodulateDecode.cs" />
+    <Compile Include="EncodeModulate.cs" />
+    <Compile Include="FFT.cs" />
+    <Compile Include="FrameInfo.cs" />
     <Compile Include="Globals.cs" />
+    <Compile Include="HostInterface.cs" />
     <Compile Include="INIFile.cs" />
     <Compile Include="Logs.cs" />
     <Compile Include="Main.cs">
@@ -67,6 +79,12 @@
       <DependentUpon>Radio.cs</DependentUpon>
     </Compile>
     <Compile Include="ReedSolomon8.cs" />
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
     <Compile Include="Viterbi.cs" />
     <Compile Include="WaveTools.cs" />
     <EmbeddedResource Include="Main.resx">

@@ -18,7 +18,7 @@ using System.Windows.Forms;
 
 namespace ARDOP
 {
-    class Globals
+    public class Globals
     {
         #region "Debugging Aids"
         // For Optimization and debugging: Remove later
@@ -266,7 +266,7 @@ namespace ARDOP
             FECRcv
         }
 
-        public static ProtocolState ARDOPState;
+        public ProtocolState ARDOPState;
         #endregion
 
 

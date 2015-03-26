@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace ARDOP
 {
-    class Logs
+    public class Logs
     {
         // A class for writing text to debug and exception logs
         #region "Objects"
